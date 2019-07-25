@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+    <defs>
+        <linearGradient id="b" x1="50%" x2="50%" y1="98.471%" y2="10.957%">
+            <stop offset="0%" stop-color="#4EBD00"/>
+            <stop offset="100%" stop-color="#57DF00"/>
+        </linearGradient>
+        <circle id="a" cx="20.5" cy="20.5" r="20.5"/>
+        <filter id="c" width="119.5%" height="119.5%" x="-9.8%" y="-9.8%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"/>
+            <feOffset dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.868252841 0"/>
+        </filter>
+        <linearGradient id="d" x1="50%" x2="50%" y1="91.45%" y2="26.111%">
+            <stop offset=".069%" stop-color="#40A700"/>
+            <stop offset="100%" stop-color="#56DE00"/>
+        </linearGradient>
+        <radialGradient id="f" fx="50%" fy="50%">
+            <stop offset="0%" stop-color="#123600"/>
+            <stop offset="100%"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="e" fill="#fff">
+            <use xlink:href="/assets/sprite.svg#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="/assets/sprite.svg#a"/>
+        <use fill="#000" filter="url(#c)" xlink:href="/assets/sprite.svg#a"/>
+        <circle cx="20.408" cy="14.408" r="20.408" fill="url(#d)" fill-rule="nonzero" mask="url(#e)"/>
+        <circle cx="20.5" cy="20.5" r="16.5" fill="url(#f)" fill-rule="nonzero"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M12.486 16.429h1.249l-1.408 4.163L13.833 25h-1.42l-1.103-3.392L10.196 25H8.935l1.506-4.408-1.408-4.163h1.396l1.016 3.159 1.04-3.16zm2.445 2.032v-.955c1.04 0 1.273-.502 1.481-1.077h.906V25h-1.347v-6.539h-1.04zm4.845-.061v4.629c0 .612.269.844.697.844.429 0 .698-.232.698-.844V18.4c0-.612-.269-.845-.698-.845-.428 0-.697.233-.697.845zm-1.347 4.543v-4.457c0-1.372.722-2.155 2.044-2.155 1.323 0 2.045.783 2.045 2.155v4.457c0 1.371-.722 2.155-2.045 2.155-1.322 0-2.044-.784-2.044-2.155zm7.22-4.408c0-.772-.27-.98-.698-.98-.429 0-.698.233-.698.845v.918H22.98v-.832c0-1.372.685-2.155 2.008-2.155 1.322 0 2.008.783 2.008 2.155 0 2.694-2.682 3.698-2.682 5.106 0 .061 0 .122.013.184h2.546V25H22.98v-1.053c0-2.523 2.669-2.939 2.669-5.412zm1.453 4.91V22.22l2.449-5.791h1.47v5.791h.636v1.225h-.637V25h-1.322v-1.555h-2.596zm1.237-1.225h1.359V19l-1.36 3.22z"/>
+    </g>
+</svg>

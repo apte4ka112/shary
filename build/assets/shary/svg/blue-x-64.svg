@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+    <defs>
+        <circle id="a" cx="20.5" cy="20.5" r="20.5"/>
+        <linearGradient id="b" x1="50%" x2="50%" y1="25.706%" y2="90.493%">
+            <stop offset="0%" stop-color="#00A3DF"/>
+            <stop offset="100%" stop-color="#0072DD"/>
+        </linearGradient>
+        <radialGradient id="d" r="66%" fx="50%" fy="50%">
+            <stop offset="0%"/>
+            <stop offset="100%" stop-color="#002259"/>
+        </radialGradient>
+        <path id="f" d="M20.408 40.816c11.271 0 20.009-9.137 20.009-20.408S31.679.34 20.408.34.456 9.137.456 20.408s8.681 20.408 19.952 20.408z"/>
+        <filter id="e" width="110%" height="109.9%" x="-5%" y="-4.9%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.425400152 0 0 0 0 0.811459425 0 0 0 0 1 0 0 0 1 0"/>
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.396284299 0 0 0 0 0.797324015 0 0 0 0 1 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="g" cx="20.5" cy="20.5" r="20.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="/assets/sprite.svg#a"/>
+        </mask>
+        <circle cx="20.5" cy="20.5" r="20.25" stroke="#000" stroke-width=".5"/>
+        <circle cx="20.408" cy="14.408" r="20.408" fill="url(#b)" fill-rule="nonzero" mask="url(#c)"/>
+        <circle cx="20.5" cy="20.5" r="16.5" fill="url(#d)" fill-rule="nonzero"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M16.927 16.429h1.249l-1.409 4.163L18.273 25h-1.42l-1.102-3.392L14.637 25h-1.261l1.506-4.408-1.409-4.163h1.396l1.017 3.159 1.04-3.16zm1.526 6.514v-4.384c0-1.445.661-2.228 2.057-2.228 1.323 0 2.008.783 2.008 2.155v.22h-1.273V18.4c0-.612-.27-.845-.698-.845-.478 0-.747.233-.747 1.053v1.568c.233-.49.649-.76 1.249-.76.992 0 1.494.698 1.494 1.96v1.567c0 1.371-.723 2.155-2.045 2.155s-2.045-.784-2.045-2.155zm2.045-2.302c-.429 0-.698.232-.698.845v1.543c0 .612.27.832.698.832.429 0 .698-.22.698-.832v-1.543c0-.613-.27-.845-.698-.845zm2.163 2.804V22.22l2.45-5.791h1.469v5.791h.636v1.225h-.636V25h-1.323v-1.555h-2.596zm1.237-1.225h1.36V19l-1.36 3.22z"/>
+        <g fill="#000" fill-rule="nonzero">
+            <use filter="url(#e)" xlink:href="/assets/sprite.svg#f"/>
+        </g>
+        <circle cx="20.5" cy="20.5" r="20" stroke="#000"/>
+    </g>
+</svg>

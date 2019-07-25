@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+    <defs>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FF682B"/>
+            <stop offset="100%" stop-color="#A90007"/>
+        </linearGradient>
+        <ellipse id="a" cx="20.309" cy="20.5" rx="20.309" ry="20.5"/>
+        <radialGradient id="d" cy="15.893%" r="38.927%" fx="50%" fy="15.893%" gradientTransform="matrix(0 .70244 -1.3249 0 .71 -.192)">
+            <stop offset="3.387%" stop-color="#EF482D"/>
+            <stop offset="100%" stop-color="#3E0800"/>
+        </radialGradient>
+        <radialGradient id="f" cy="85.117%" r="41.783%" fx="50%" fy="85.117%" gradientTransform="matrix(0 .70244 -1.47733 0 1.757 .5)">
+            <stop offset="0%" stop-color="#D43519"/>
+            <stop offset="100%" stop-color="#3E0800" stop-opacity="0"/>
+        </radialGradient>
+        <path id="e" d="M5.897 34.944l14.33-14.717 14.47 14.74C31.02 38.695 25.931 41 20.31 41c-5.634 0-10.733-2.316-14.412-6.056zm.08-28.968C9.648 2.283 14.714 0 20.308 0c5.582 0 10.638 2.273 14.309 5.952l-14.39 14.275L5.976 5.977z"/>
+        <ellipse id="h" cx="20.5" cy="20.295" rx="20.5" ry="20.705"/>
+        <filter id="g" width="119.5%" height="119.3%" x="-9.8%" y="-9.7%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="2.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <ellipse id="i" cx="20.355" cy="20.5" rx="15.435" ry="15.58"/>
+        <circle id="k" cx="20.5" cy="20.5" r="20.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="/assets/sprite.svg#a"/>
+        </mask>
+        <use fill="url(#b)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#a"/>
+        <g fill-rule="nonzero" mask="url(#c)">
+            <use fill="url(#d)" xlink:href="/assets/sprite.svg#e"/>
+            <use fill="url(#f)" xlink:href="/assets/sprite.svg#e"/>
+        </g>
+        <g fill="#000" fill-rule="nonzero" mask="url(#c)">
+            <use filter="url(#g)" xlink:href="/assets/sprite.svg#h"/>
+        </g>
+        <mask id="j" fill="#fff">
+            <use xlink:href="/assets/sprite.svg#i"/>
+        </mask>
+        <ellipse cx="20.355" cy="20.5" stroke="#FFF" stroke-opacity=".246" stroke-width=".558" rx="15.714" ry="15.859"/>
+        <path fill-rule="nonzero" stroke="#FFF" stroke-opacity=".246" stroke-width=".558" d="M29.811 13.035a12.537 12.537 0 0 0-9.502-4.35 12.535 12.535 0 0 0-9.42 4.257" mask="url(#j)"/>
+        <path fill-rule="nonzero" stroke="#FFF" stroke-opacity=".246" stroke-width=".558" d="M29.811 32.28a12.537 12.537 0 0 0-9.502-4.35 12.535 12.535 0 0 0-9.42 4.257" mask="url(#j)" transform="matrix(1 0 0 -1 0 60.21)"/>
+        <mask id="l" fill="#fff">
+            <use xlink:href="/assets/sprite.svg#k"/>
+        </mask>
+        <circle cx="20.5" cy="20.5" r="20.09" stroke="#000" stroke-width=".82"/>
+        <path fill="#FFF" d="M16.49 15.61h1.326l-1.495 4.42 1.599 4.68h-1.508l-1.17-3.601-1.183 3.601h-1.34l1.6-4.68-1.495-4.42h1.482l1.079 3.354 1.105-3.354zm4.4 2.743v-.507c0-.819-.285-1.04-.74-1.04s-.741.247-.741.897v.585h-1.352v-.494c0-1.456.728-2.288 2.132-2.288 1.404 0 2.132.832 2.132 2.288v.234c0 .975-.312 1.586-1.001 1.872.715.312 1 .988 1 1.911v.715c0 1.456-.727 2.288-2.131 2.288s-2.132-.832-2.132-2.288v-.754h1.352v.845c0 .65.286.897.74.897.456 0 .742-.221.742-1.027v-.715c0-.845-.286-1.157-.936-1.157h-.481v-1.3h.559c.533 0 .858-.234.858-.962zm4.727-.507c0-.819-.286-1.04-.741-1.04s-.741.247-.741.897v.975h-1.352v-.884c0-1.456.728-2.288 2.132-2.288 1.404 0 2.132.832 2.132 2.288 0 2.86-2.847 3.926-2.847 5.421 0 .065 0 .13.013.195h2.704v1.3h-4.134v-1.118c0-2.678 2.834-3.12 2.834-5.746z" mask="url(#l)"/>
+    </g>
+</svg>

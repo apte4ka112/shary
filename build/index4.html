@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/fonts/opensans/opensans.css">
+    <link rel="stylesheet" href="/fonts/bebasneue/bebasneue.css">
+    <link rel="stylesheet" href="/fonts/sourcesanspro/sourcesanspro.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="index_state">
+    <header class="header">
+       <div class="header__wrap">
+           <div class="header__row">
+                <div class="header__col">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="/assets/logo.png" srcset="/assets/logo@2x.png 2x, /assets/logo@3x.png 3x" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__col header__col_mobile">
+                    <a href="#popup_chat" class="open-modal open-chat">
+                        <svg class="icon icon-default_7">
+                            <use xlink:href="/assets/sprite.svg#default_7"></use>
+                        </svg>
+                        <span>Чат</span>
+                    </a>
+                </div>
+                <div class="header__col">
+                    <nav class="header__menu menu">
+                        <div class="menu__burger">
+                           <a href="#">
+                                <svg class="icon icon-default_6">
+                                    <use xlink:href="/assets/sprite.svg#default_6"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu__container">
+                            <a class="menu__close">
+                                <svg viewBox="0 0 17 17" id="close" xmlns="http://www.w3.org/2000/svg"><path fill-opacity=".301" d="M8.5 6.83L15.33 0 17 1.67 10.17 8.5 17 15.33 15.33 17 8.5 10.17 1.67 17 0 15.33 6.83 8.5 0 1.67 1.67 0 8.5 6.83z"/></svg>
+                            </a>
+                            <ul class="menu__items">
+                                <li class="menu__item"><a class="menu__link menu__link_active" href="/">Стэпбол</a></li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="faucet.html">Бесплатные
+                                        <svg viewBox="0 0 21 21" id="green_2" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 21C4.701 21 0 16.299 0 10.5S4.701 0 10.5 0 21 4.701 21 10.5 16.299 21 10.5 21zm0-2.8a7.706 7.706 0 0 0 7.672-7l.028-.396v-1.31c0-.73-.446-1.094-1.339-1.094H11.2v2.8h4.15a4.901 4.901 0 1 1-2.305-4.889c.323.184.551.143.686-.125.405-.806.693-1.12 1.017-1.535.194-.247.113-.49-.245-.73A7.7 7.7 0 1 0 10.5 18.2z"/></svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item"><a class="menu__link" href="/honesty.html">Честность</a></li>
+                                <li class="menu__item"><a class="menu__link" href="help.html">Помощь</a></li>
+                                <li class="menu__item"><a class="menu__link" href="promocode.html">Промокод</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__col">
+                    <div class="header__balance balance">
+                       <div class="balance__items">
+                           <div class="balance__item">
+                                 <img src="/assets/avatar.png">
+                           </div>
+                           <div class="balance__item">
+                               <div class="balance__count">
+                                   <span id="balance__count_value">10 497</span>
+                                   <svg class="icon icon-green-invert">
+                                     <use class="green-invert" xlink:href="/assets/sprite.svg#green-invert"></use>
+                                   </svg>
+                                   <div class="balance__count-hover">
+                                       <div class="balance__count-hover-balance">
+                                           Баланс <span>1 497</span>₽
+                                       </div>
+                                       <div class="balance__count-hover-course">
+                                           1 рубль = 10
+                                           <svg class="icon icon-green-invert">
+                                             <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                           </svg>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="balance__links">
+                                   <a href="#popup_withdraw_tabs" class="button button_mini open-modal" data-effect="mfp-move-from-top">
+                                       <span>Депозит</span>
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewBox="0 0 10 9">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path stroke="#91FF4A" d="M9.5 8.5v-8H3A2.5 2.5 0 0 0 .5 3v3A2.5 2.5 0 0 0 3 8.5h6.5z"/>
+                                                <circle cx="4.5" cy="4.5" r="1.5" fill="#91FF4A"/>
+                                            </g>
+                                        </svg>
+                                   </a>
+                                   <a href="profile.html" class="button button_mini">Профиль</a>
+                                </div>
+                           </div>
+                       </div>
+                        
+                    </div>
+                </div>
+            </div>
+       </div>
+    </header>
+    
+    <!--content-->
+    <div class="content">
+       <!--content__wrap-->
+        <div class="content__wrap">
+          
+           <!--content__left-->
+            <div class="content__left">
+              
+               <!--content__header-->
+                <div class="content__header">
+                    <h1>Стэпбол</h1>
+                    <div class="content__header-button">
+                        <a href="#popup_howplay" class="open-modal" data-effect="mfp-move-from-top">
+                           <svg class="icon icon-default_2">
+                              <use xlink:href="/assets/sprite.svg#default_2"></use>
+                           </svg>
+                           <div>Правила <span> за 30 сек</span></div>
+                        </a>
+                    </div>
+                </div>
+                <!--end content__header-->
+                
+                <!--content__balloon-->
+                <div class="content__balloon balloon">
+                    <div class="balloon__label">Находи шары в нужном порядке и увеличь свою ставку в 1 024 раза!</div>
+                    <div class="balloon__items">
+                       <div>
+                            <div class="balloon__item balloon__item_red balloon__item_passed">
+                                <div class="balloon__rate">
+                                   <img src="/assets/shary/red.png">
+                                </div>
+                                <div class="balloon__coins">200G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_blue balloon__item_passed">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/blue.png">
+                                </div>
+                                <div class="balloon__coins">400G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_red balloon__item_active">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/red-x-8.png">
+                                </div>
+                                <div class="balloon__coins">800G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_blue">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/blue-x-16-dark.png">
+                                </div>
+                                <div class="balloon__coins">1 600G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_red">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/red-x-32.png">
+                                </div>
+                                <div class="balloon__coins">3 200G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_blue">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/blue-x-64-dark.png">
+                                </div>
+                                <div class="balloon__coins">6 400G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_red">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/red-x-128.png">
+                                </div>
+                                <div class="balloon__coins">12 800G</div>
+                                <svg class="icon icon-arrow">
+                                    <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                </svg>
+                            </div>
+                            <div class="balloon__item balloon__item_green">
+                                <div class="balloon__rate">
+                                    <img src="/assets/shary/green-x-1024.png">
+                                </div>
+                                <div class="balloon__coins">102 400G</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end content__balloon-->
+                
+                <!--content__gameboard-->
+                <div class="content__gameboard gameboard">
+                    <div class="gameboard__row">
+                        <div class="gameboard__col">
+                            <div class="gameboard__items">
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue gameboard__balloon_fail">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_green">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_blue gameboard__balloon_luck">
+                                    </div>
+                                </div>
+                                <div class="gameboard__item gameboard__item_rotated">
+                                    <div class="gameboard__balloon gameboard__balloon_red gameboard__balloon_luck">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gameboard__col">
+                            <div class="gameboard__level">
+                                <div class="gameboard__level-count">Уровень 3</div>
+                                <div class="gameboard__level-task">
+                                    <figure>
+                                        <p><img src="/assets/shary/red-ball.png" alt=""></p>
+                                        <figcaption>Найди красный шар</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="gameboard__level-prize">
+                                    <span>Приз 80</span>
+                                    <svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="gameboard__fail">
+                               <div class="gameboard__fail-header">
+                                   <div class="gameboard__fail-label">Неправильно</div>
+                                   <div class="gameboard__fail-button">
+                                       <a href="#popup_honesty" class="open-modal" data-effect="mfp-move-from-top">Проверить</a>
+                                   </div>
+                               </div>
+                            </div>
+                            
+                            <div class="gameboard__button">
+                                <button class="button button_lg">Новая игра за <span class="gameboard__countg">10G</span></button>
+                            </div>
+                            
+                            <div class="gameboard__rate">
+                                <div class="gameboard__rate-label_mobile">Ставка</div>
+                                <div class="gameboard__rate-items">
+                                    <div class="gameboard__rate-item">1</div>
+                                    <div class="gameboard__rate-item gameboard__rate-item_active">10</div>
+                                    <div class="gameboard__rate-item">50</div>
+                                    <div class="gameboard__rate-item">100</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <!--end content__gameboard-->
+                
+                <div class="content__stat stat">
+                    <div class="stat__tabs">
+                        <div class="stat__tab">
+                            <a class="stat__tab-link stat__tab-link_active" href="#" data-text="Все выигрыши"><span>Все выигрыши</span></a>
+                        </div>
+                        <div class="stat__tab">
+                            <a class="stat__tab-link" href="#" data-text="Мои игры"><span>Мои игры</span></a>
+                        </div>
+                    </div>
+                    <div class="table stat__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Игрок</th>
+                                    <th>Ставка</th>
+                                    <th>
+                                        <span class="td_mobile_380_hide">Уровень</span>
+                                        <span class="td_mobile_380_show">Lvl</span>
+                                    </th>
+                                    <th>Выигрыш</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><div>Timas</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X2</div></td>
+                                    <td><div>20<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Anderson</div></td>
+                                    <td><div>100<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X4</div></td>
+                                    <td><div>400<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Lil Dick</div></td>
+                                    <td><div>50<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X16</div></td>
+                                    <td><div>800<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>OberBober</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X32</div></td>
+                                    <td><div>320<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Timas</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X2</div></td>
+                                    <td><div>20<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Anderson</div></td>
+                                    <td><div>100<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X4</div></td>
+                                    <td><div>400<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Lil Dick</div></td>
+                                    <td><div>50<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X16</div></td>
+                                    <td><div>800<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>OberBober</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X32</div></td>
+                                    <td><div>320<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Timas</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X2</div></td>
+                                    <td><div>20<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Anderson</div></td>
+                                    <td><div>100<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X4</div></td>
+                                    <td><div>400<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Lil Dick</div></td>
+                                    <td><div>50<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X16</div></td>
+                                    <td><div>800<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>OberBober</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>X32</div></td>
+                                    <td><div>320<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Время</th>
+                                    <th>Ставка</th>
+                                    <th>
+                                        <span class="td_mobile_380_hide">Уровень</span>
+                                        <span class="td_mobile_380_show">Lvl</span>
+                                    </th>
+                                    <th>Выигрыш</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><div>5 сек <span class="td_mobile_719_hide">назад</span></div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х2</div></td>
+                                    <td><div>20<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>23 янв 18:45</div></td>
+                                    <td><div>100<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х4</div></td>
+                                    <td><div></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>21 янв 12:43</div></td>
+                                    <td><div>50<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х16</div></td>
+                                    <td><div>800<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>23 окт 09:19</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х32</div></td>
+                                    <td><div></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>23 окт 09:19</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х2</div></td>
+                                    <td><div></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>21 янв 12:43</div></td>
+                                    <td><div>100<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х4</div></td>
+                                    <td><div></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>23 окт 09:19</div></td>
+                                    <td><div>50<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х16</div></td>
+                                    <td><div></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>21 янв 12:43</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х32</div></td>
+                                    <td><div>320<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>23 окт 09:19</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х2</div></td>
+                                    <td><div>20<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>21 янв 12:43</div></td>
+                                    <td><div>100<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х4</div></td>
+                                    <td><div></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>23 окт 09:19</div></td>
+                                    <td><div>50<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х16</div></td>
+                                    <td><div>800<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>21 янв 12:43</div></td>
+                                    <td><div>10<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                    <td><div>Х32</div></td>
+                                    <td><div>320<svg class="icon icon-green-invert">
+                                      <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                    </svg></div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+            <!--end content__left-->
+            
+            <!--content__right-->
+            <div class="content__right">
+                <div class="content__chat chat">
+                    <header class="chat__header">
+                       <span class="chat__header-text">288 онлайн</span>
+                        <a class="link chat__header-link" href="#">Правила чата</a>
+                    </header>
+                    
+                    <!--chat__messages-->
+                    <div class="chat__messages">
+                        <div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Sergey569</div>
+                                <div class="chat__message-text">Дайте денег</div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Je652fgkk</div>
+                                <div class="chat__message-text">Парни, ну хоть 10 рублей</div>
+                            </div>
+                            <div class="chat__message chat__message_moder">
+                                <div class="chat__message-username">Kunkka <span>(модератор)</span></div>
+                                <div class="chat__message-text">
+                                    <span class="chat__message-recipient">@SergeyKorovin</span>
+                                    <span>получает</span>
+                                    <img class="chat__message-icon" src="/assets/copy.png" alt="copy">
+                                    <span>на 24 часа и 100 ударов плетью</span>
+                                </div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Petr</div>
+                                <div class="chat__message-text">Все проиграл, парни. Вообще все. Дайте сколько сможете, по-братски</div>
+                            </div>
+                            <div class="chat__message chat__message_admin">
+                                <div class="chat__message-username">Админ</div>
+                                <div class="chat__message-text">
+                                    <span class="chat__message-recipient">@Petr</span>
+                                    <span>Администратор награждает тебя 50G, матрос.</span>
+                                </div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Je652fgkk</div>
+                                <div class="chat__message-text">Так, а как проверить игру?</div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">BitkoinMaster</div>
+                                <div class="chat__message-text">
+                                    <img src="/assets/hqdefault.jpg" alt="hqdefault" class="chat__message-image">
+                                </div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Je652fgkk</div>
+                                <div class="chat__message-text">Пацаны, кто какую стратегию юзает? И да, дайте 10 монет!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end chat__messages-->
+                    
+                    <footer class="chat__footer">
+                        <form action="/">
+                            <input name="message" id="message" placeholder="Введите текст">
+                        </form>
+                        <a href="#">
+                            <svg class="icon icon-default_4">
+                                <use xlink:href="/assets/sprite.svg#default_4"></use>
+                            </svg>
+                        </a>
+                    </footer>
+                    
+                </div>
+            </div>
+            <!--end content__right-->
+            
+        </div>
+        <!--end content__wrap-->
+    </div>
+    <!--end content-->
+    
+    
+    <!--footer-->
+    <footer class="footer">
+       <div class="footer__wrap">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__sitename">© Название сайта</div>
+                    <div class="footer__adverts">По вопросам рекламы и партнерства <a href="http://XXX@test.io">XXX@test.io</a></div>
+                </div>
+                <div class="footer__col">
+                    <a href="terms.html">Условия использования</a>
+                    <a href="№">Политика конфиденциальности</a>
+                </div>
+            </div>
+       </div>
+    </footer>
+    <!--end footer-->
+    
+    <div class="popup-container"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/jquery.easing.1.3.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/countUp.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

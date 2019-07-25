@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+    <defs>
+        <linearGradient id="b" x1="50%" x2="50%" y1="3.805%" y2="93.416%">
+            <stop offset="0%" stop-color="#BAFF00"/>
+            <stop offset="100%" stop-color="#13DA00"/>
+        </linearGradient>
+        <circle id="a" cx="20.5" cy="20.5" r="20.5"/>
+        <radialGradient id="d" cy="17.4%" r="35.392%" fx="50%" fy="17.4%" gradientTransform="matrix(0 .70905 -1.3249 0 .73 -.18)">
+            <stop offset=".736%" stop-color="#AEFF46"/>
+            <stop offset="100%" stop-color="#278000"/>
+        </radialGradient>
+        <radialGradient id="f" cy="85.117%" r="41.394%" fx="50%" fy="85.117%" gradientTransform="matrix(0 .70905 -1.47733 0 1.757 .497)">
+            <stop offset="0%" stop-color="#A7FF37"/>
+            <stop offset="100%" stop-color="#174201" stop-opacity="0"/>
+        </radialGradient>
+        <path id="e" d="M5.953 34.944l14.465-14.717 14.605 14.74A20.436 20.436 0 0 1 20.5 41a20.437 20.437 0 0 1-14.547-6.056zm.08-28.968A20.435 20.435 0 0 1 20.5 0a20.435 20.435 0 0 1 14.443 5.952L20.418 20.227 6.033 5.977z"/>
+        <circle id="h" cx="20.5" cy="20.5" r="21.047"/>
+        <filter id="g" width="119%" height="119%" x="-9.5%" y="-9.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="3" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="2.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="i" cx="20.5" cy="20.5" r="15.58"/>
+        <circle id="k" cx="20.5" cy="20.5" r="20.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="c" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#a"/>
+            </mask>
+            <use fill="url(#b)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#a"/>
+            <g fill-rule="nonzero" mask="url(#c)">
+                <use fill="url(#d)" xlink:href="/assets/sprite.svg#e"/>
+                <use fill="url(#f)" xlink:href="/assets/sprite.svg#e"/>
+            </g>
+            <g fill="#000" fill-rule="nonzero" mask="url(#c)">
+                <use filter="url(#g)" xlink:href="/assets/sprite.svg#h"/>
+            </g>
+            <mask id="j" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#i"/>
+            </mask>
+            <circle cx="20.5" cy="20.5" r="15.853" stroke="#FFF" stroke-opacity=".246" stroke-width=".547"/>
+            <path fill-rule="nonzero" stroke="#FFF" stroke-opacity=".246" stroke-width=".547" d="M30.091 13.035a12.705 12.705 0 0 0-9.591-4.35c-3.783 0-7.18 1.646-9.51 4.257" mask="url(#j)"/>
+            <path fill-rule="nonzero" stroke="#FFF" stroke-opacity=".246" stroke-width=".547" d="M30.091 32.28a12.705 12.705 0 0 0-9.591-4.35c-3.783 0-7.18 1.646-9.51 4.257" mask="url(#j)" transform="matrix(1 0 0 -1 0 60.21)"/>
+            <circle cx="20.5" cy="20.5" r="20.09" stroke="#000" stroke-width=".82"/>
+        </g>
+        <path fill="#FFF" fill-rule="nonzero" d="M14.76 20.337l.97-.884 2.857 2.302c3.686-4.252 6.077-6.584 7.173-6.995-.017.013.32.013 1.011 0-4.35 5.311-6.972 8.886-7.868 10.725-.114.236-.445.292-.551.057-.348-.769-1.546-2.503-3.592-5.205z"/>
+    </g>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="b" x1="50%" x2="50%" y1="3.805%" y2="93.416%">
+            <stop offset="0%" stop-color="#BAFF00"/>
+            <stop offset="100%" stop-color="#13DA00"/>
+        </linearGradient>
+        <circle id="a" cx="50" cy="50" r="50"/>
+        <radialGradient id="d" cy="17.4%" r="35.392%" fx="50%" fy="17.4%" gradientTransform="matrix(0 .70905 -1.3249 0 .73 -.18)">
+            <stop offset=".736%" stop-color="#AEFF46"/>
+            <stop offset="100%" stop-color="#278000"/>
+        </radialGradient>
+        <radialGradient id="f" cy="85.117%" r="41.394%" fx="50%" fy="85.117%" gradientTransform="matrix(0 .70905 -1.47733 0 1.757 .497)">
+            <stop offset="0%" stop-color="#A7FF37"/>
+            <stop offset="100%" stop-color="#174201" stop-opacity="0"/>
+        </radialGradient>
+        <path id="e" d="M14.518 85.229L49.8 49.333l35.624 35.955C76.369 94.376 63.842 100 50 100c-13.871 0-26.424-5.649-35.482-14.771zm.196-70.653C23.756 5.568 36.228 0 50 0c13.742 0 26.19 5.544 35.228 14.517L49.799 49.333 14.714 14.576z"/>
+        <circle id="h" cx="50" cy="50" r="51.333"/>
+        <filter id="g" width="118.5%" height="118.5%" x="-9.3%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="8" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="5.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="2.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="i" cx="50" cy="50" r="38"/>
+        <circle id="k" cx="50" cy="50" r="50"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#FFF" fill-opacity=".249" fill-rule="nonzero" transform="translate(20 47)">
+            <rect width="6" height="6" x="53" rx="3"/>
+            <rect width="6" height="6" rx="3"/>
+        </g>
+        <g>
+            <mask id="c" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#a"/>
+            </mask>
+            <use fill="url(#b)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#a"/>
+            <g fill-rule="nonzero" mask="url(#c)">
+                <use fill="url(#d)" xlink:href="/assets/sprite.svg#e"/>
+                <use fill="url(#f)" xlink:href="/assets/sprite.svg#e"/>
+            </g>
+            <g fill="#000" fill-rule="nonzero" mask="url(#c)">
+                <use filter="url(#g)" xlink:href="/assets/sprite.svg#h"/>
+            </g>
+            <mask id="j" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#i"/>
+            </mask>
+            <circle cx="50" cy="50" r="38.667" stroke="#FFF" stroke-opacity=".246" stroke-width="1.333"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width="1.333" d="M73.393 31.793A30.988 30.988 0 0 0 50 21.183a30.986 30.986 0 0 0-23.193 10.383" mask="url(#j)"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width="1.333" d="M73.393 78.732A30.988 30.988 0 0 0 50 68.122a30.986 30.986 0 0 0-23.193 10.383" mask="url(#j)" transform="matrix(1 0 0 -1 0 146.854)"/>
+            <mask id="l" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#k"/>
+            </mask>
+            <circle cx="50" cy="50" r="49" stroke="#000" stroke-width="2"/>
+            <path fill="#FFF" d="M55.61 43.912v12.172c0 4.012-1.836 6.188-5.712 6.188-3.672 0-5.576-2.176-5.576-5.984v-.612h3.536v.85c0 1.7.748 2.346 1.938 2.346 1.326 0 2.074-.646 2.074-2.924v-4.352c-.646 1.36-1.802 2.108-3.468 2.108-2.754 0-4.148-1.938-4.148-5.44v-4.352c0-3.808 2.006-5.984 5.678-5.984s5.678 2.176 5.678 5.984zm-5.678 6.392c1.19 0 1.938-.646 1.938-2.346v-4.284c0-1.7-.748-2.312-1.938-2.312s-1.938.612-1.938 2.312v4.284c0 1.7.748 2.346 1.938 2.346z" mask="url(#l)"/>
+            <g fill-opacity=".249" mask="url(#l)">
+                <g fill="#FFF" fill-rule="nonzero" transform="translate(20 47)">
+                    <rect width="6" height="6" x="53" rx="3"/>
+                    <rect width="6" height="6" rx="3"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

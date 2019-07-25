@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/fonts/opensans/opensans.css">
+    <link rel="stylesheet" href="/fonts/bebasneue/bebasneue.css">
+    <link rel="stylesheet" href="/fonts/sourcesanspro/sourcesanspro.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="popup mfp-hide popup_width_md popup_withdrawal" id="popup_withdrawal">
+        <div class="popup__wrap">
+            <div class="popup__header">
+               <div class="popup__title">Вывод средств</div>
+               <div class="popup__close">
+                    <svg viewBox="0 0 17 17" id="close" xmlns="http://www.w3.org/2000/svg"><path fill-opacity=".301" d="M8.5 6.83L15.33 0 17 1.67 10.17 8.5 17 15.33 15.33 17 8.5 10.17 1.67 17 0 15.33 6.83 8.5 0 1.67 1.67 0 8.5 6.83z"/></svg>
+               </div>
+            </div>
+            <div class="popup__balance">
+                На балансе 
+                <span>3 500</span>
+                <svg viewBox="0 0 15 15" id="green-invert" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 15a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15zm0-2c2.869 0 5.245-2.197 5.5-5V7c0-.667-.319-1-.956-1H8v2h2.965a3.5 3.5 0 1 1-1.647-3.492c.23.132.394.102.49-.09.29-.575.495-.8.727-1.096.138-.177.08-.35-.176-.521A5.5 5.5 0 1 0 7.5 13z"/></svg>
+                <span>(350₽)</span>
+            </div>
+            <div class="popup__wallets">
+                <a href="#" class="popup__wallet popup__wallet_active">
+                    <figure>
+                        <img src="/assets/qiwi.png">
+                        <figcaption>Qiwi</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/yandex.png">
+                        <figcaption>Яндекс</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/payeer.png">
+                        <figcaption>Payeer</figcaption>
+                    </figure>
+                </a>
+            </div>
+            
+            <form class="popup__form form">
+                <div class="form__item">
+                   <label for="summa" class="form__label">Введите сумму</label>
+                   <div class="form__input form__input_icon">
+                        <input type="number" pattern="[0-9]*" id="summa" name="summa" value="1000">
+                        <div class="form__exchange">= <span>100</span><i>₽</i></div>
+                        <div class="form__icon">
+                            <svg viewBox="0 0 21 21" id="green_2" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 21C4.701 21 0 16.299 0 10.5S4.701 0 10.5 0 21 4.701 21 10.5 16.299 21 10.5 21zm0-2.8a7.706 7.706 0 0 0 7.672-7l.028-.396v-1.31c0-.73-.446-1.094-1.339-1.094H11.2v2.8h4.15a4.901 4.901 0 1 1-2.305-4.889c.323.184.551.143.686-.125.405-.806.693-1.12 1.017-1.535.194-.247.113-.49-.245-.73A7.7 7.7 0 1 0 10.5 18.2z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="wallet" class="form__label">Кошелек</label>
+                    <div class="form__input">
+                        <input type="tel" id="wallet" name="wallet" placeholder="+7 931 333-44-55" required>
+                    </div>
+                </div> 
+                <div class="form__item">
+                    <div class="form__button">
+                        <input type="submit" class="button button_lg" value="Вывести">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/popup.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

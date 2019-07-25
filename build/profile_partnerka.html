@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/fonts/opensans/opensans.css">
+    <link rel="stylesheet" href="/fonts/bebasneue/bebasneue.css">
+    <link rel="stylesheet" href="/fonts/sourcesanspro/sourcesanspro.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="page__help">
+    <header class="header">
+       <div class="header__wrap">
+           <div class="header__row">
+                <div class="header__col">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="/assets/logo2.svg" srcset="/assets/logo@2x.png 2x, /assets/logo@3x.png 3x" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__col header__col_mobile">
+                    <a href="#popup_chat" class="open-modal open-chat">
+                        <svg class="icon icon-default_7">
+                            <use xlink:href="/assets/sprite.svg#default_7"></use>
+                        </svg>
+                        <span>Чат</span>
+                    </a>
+                </div>
+                <div class="header__col">
+                    <nav class="header__menu menu">
+                        <div class="menu__burger">
+                           <a href="#">
+                                <svg class="icon icon-default_6">
+                                    <use xlink:href="/assets/sprite.svg#default_6"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu__container">
+                            <a class="menu__close">
+                                <svg viewBox="0 0 17 17" id="close" xmlns="http://www.w3.org/2000/svg"><path fill-opacity=".301" d="M8.5 6.83L15.33 0 17 1.67 10.17 8.5 17 15.33 15.33 17 8.5 10.17 1.67 17 0 15.33 6.83 8.5 0 1.67 1.67 0 8.5 6.83z"/></svg>
+                            </a>
+                            <ul class="menu__items">
+                                <li class="menu__item"><a class="menu__link" href="/">Стэпбол</a></li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="faucet.html">Бесплатные
+                                        <svg class="icon icon-green-invert">
+                                            <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item"><a class="menu__link menu__link_active" href="/honesty.html">Честность</a></li>
+                                <li class="menu__item"><a class="menu__link" href="help.html">Помощь</a></li>
+                                <li class="menu__item"><a class="menu__link" href="promocode.html">Промокод</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__col">
+                    <div class="header__balance balance">
+                       <div class="balance__items">
+                           <div class="balance__item">
+                                 <img src="/assets/avatar.png">
+                           </div>
+                           <div class="balance__item">
+                               <div class="balance__count">
+                                   <span id="balance__count_value">10 497</span>
+                                   <svg class="icon icon-green-invert">
+                                     <use class="green-invert" xlink:href="/assets/sprite.svg#green-invert"></use>
+                                   </svg>
+                                   <div class="balance__count-hover">
+                                       <div class="balance__count-hover-balance">
+                                           Баланс <span>1 497</span>₽
+                                       </div>
+                                       <div class="balance__count-hover-course">
+                                           1 рубль = 10
+                                           <svg class="icon icon-green-invert">
+                                             <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                           </svg>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="balance__links">
+                                   <a href="#popup_withdraw_tabs" class="button button_mini open-modal" data-effect="mfp-move-from-top">
+                                       <span>Депозит</span>
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewBox="0 0 10 9">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path stroke="#91FF4A" d="M9.5 8.5v-8H3A2.5 2.5 0 0 0 .5 3v3A2.5 2.5 0 0 0 3 8.5h6.5z"/>
+                                                <circle cx="4.5" cy="4.5" r="1.5" fill="#91FF4A"/>
+                                            </g>
+                                        </svg>
+                                   </a>
+                                   <a href="profile.html" class="button button_mini">Профиль</a>
+                                </div>
+                           </div>
+                       </div>
+                        
+                    </div>
+                </div>
+            </div>
+       </div>
+    </header>
+    
+    <!--content-->
+    <div class="content">
+       <!--content__wrap-->
+        <div class="content__wrap">
+               
+            <!--content__header-->
+            <div class="content__header">
+                <h1>Профиль</h1>
+            </div>
+            <!--end content__header-->
+            
+            <div class="profile content__middle">
+                <div class="tabs">
+                    <a href="/profile.html" class="tab">Финансы</a>
+                    <a href="/profile_partnerka.html" class="tab tab_active">Партнерка</a>
+                </div>
+                
+                <div class="lk">
+                    <div class="finance">
+                        <div>
+                            <div class="finance__item">
+                                <div class="finance__label">Доступно для вывода</div>
+                                <div class="finance__summa">
+                                    <span>5 946</span><span class="ruble">₽</span>
+                                </div>
+                                <button class="button button_mini">Вывести</button>
+                            </div>
+                            <div class="finance__item">
+                                <div class="finance__label">В холде</div>
+                                <div class="finance__summa">
+                                    <span>0</span><span class="ruble">₽</span>
+                                </div>
+                                <p><span class="text-grey">После вывода проеряем деньги до 7 дней</span></p>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="finance__item">
+                                <div class="finance__label">Рефералов</div>
+                                <div class="finance__summa">
+                                    <span>295 505</span>
+                                </div>
+                                <p>
+                                    <span class="text-green">405</span> сегодня <br> <span class="text-green">3 060</span> за неделю
+                                </p>
+                            </div>
+                            <div class="finance__item">
+                                <div class="finance__label">Твоя прибыль</div>
+                                <div class="finance__summa">
+                                    <span>15%</span>
+                                </div>
+                                <p><span class="text-grey"><span class="mobile_hidden">Партнер получает процент </span>от пополнений рефералов</span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!--end finance-->
+                    
+                    <div class="referal__link">
+                        <h2>Реферальная ссылка</h2>
+                        <form action="" class="form">
+                            <div class="form__item">
+                                <div class="form__input">
+                                    <input class="input_disable valid" type="text" id="password" name="password" value="http://kapitanx.com/bonus-93" aria-invalid="false">
+                                </div>
+                            </div>
+                            <div class="form__item">
+                                <div class="form__button">
+                                    <input type="button" class="button button_mini button_mini_theme_white" value="Скопировать">
+                                </div>
+                            </div>
+                        </form>
+                        <p><span class="text-grey">Тот, кто зарегистрируется по этой ссылке, станет рефералом</span></p>
+                    </div>
+                    
+                    <div class="referal__adverts">
+                        <a href="#" class="referal__advert">
+                            <img src="/assets/zip.svg">
+                            <div class="referal__title">Рекламные материалы</div>
+                            <small><span class="text-grey">Баннеры, логотип, персонаж</span></small>
+                        </a>
+                        <a href="/partnerka_terms.html" class="referal__advert">
+                            <img src="/assets/document.svg">
+                            <div class="referal__title">Условия партнерки</div>
+                            <small><span class="text-grey">Не поленись прочитать</span></small>
+                        </a>
+                    </div>
+                    
+                </div>
+                <!--end lk-->
+                
+                <h2>Рефералы</h2>
+                
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Зарегистрирован</th>
+                                <th>Имя</th>
+                                <th>Прибыль</th>
+                            </tr>
+                        </thead>
+                        <tbody> 
+                            <tr class="table_row_bg_false">
+                                <td><div>29 848</div></td>
+                                <td><div>23.03, 07:59</div></td>
+                                <td><div>Суриманов Жолдас</div></td>
+                                <td><div>29 858<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_true">
+                                <td><div>29 847</div></td>
+                                <td><div>18.03, 09:34</div></td>
+                                <td><div>Каганович Александр</div></td>
+                                <td><div>27 245<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_false">
+                                <td><div>29 846</div></td>
+                                <td><div>16.03, 07:59</div></td>
+                                <td><div>Каганович Александр</div></td>
+                                <td><div>23 112<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_true">
+                                <td><div>29 845</div></td>
+                                <td><div>15.03, 09:34</div></td>
+                                <td><div>Зеленый Петр</div></td>
+                                <td><div>559<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_false">
+                                <td><div>29 844</div></td>
+                                <td><div>23.03, 07:59</div></td>
+                                <td><div>Суриманов Жолдас</div></td>
+                                <td><div>445<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_true">
+                                <td><div>29 843</div></td>
+                                <td><div>18.03, 09:34</div></td>
+                                <td><div>Каганович Александр</div></td>
+                                <td><div>245<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_false">
+                                <td><div>29 842</div></td>
+                                <td><div>16.03, 07:59</div></td>
+                                <td><div>Каганович Александр</div></td>
+                                <td><div>145<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            <tr class="table_row_bg_true">
+                                <td><div>29 841</div></td>
+                                <td><div>15.03, 09:34</div></td>
+                                <td><div>Зеленый Петр</div></td>
+                                <td><div>0<span class="ruble">₽</span></div></td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <button class="button button_mini button_mini_theme_white">Показать ещё 20</button>
+            </div>
+            
+        </div>
+        <!--end content__wrap-->
+        
+    </div>
+    <!--end content-->
+    
+    
+    <!--footer-->
+    <footer class="footer">
+       <div class="footer__wrap">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__sitename">© Название сайта</div>
+                    <div class="footer__adverts">По вопросам рекламы и партнерства <a href="http://XXX@test.io">XXX@test.io</a></div>
+                </div>
+                <div class="footer__col">
+                    <a href="terms.html">Условия использования</a>
+                    <a href="№">Политика конфиденциальности</a>
+                </div>
+            </div>
+       </div>
+    </footer>
+    <!--end footer-->
+    
+    <div class="popup-container"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/jquery.easing.1.3.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/countUp.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

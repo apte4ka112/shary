@@ -1,0 +1,608 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="760" height="86" viewBox="0 0 760 86">
+    <defs>
+        <path id="a" d="M0 0h85.154v85.154H0z"/>
+        <filter id="b" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+        </filter>
+        <linearGradient id="d" x1="50%" x2="50%" y1="2.12%" y2="100%">
+            <stop offset="0%" stop-color="#00CDFF"/>
+            <stop offset="100%" stop-color="#1A48FF"/>
+        </linearGradient>
+        <circle id="c" cx="26.611" cy="26.611" r="26.611"/>
+        <radialGradient id="f" cy="16.819%" r="37.258%" fx="50%" fy="16.819%" gradientTransform="matrix(0 .70905 -1.3249 0 .723 -.186)">
+            <stop offset="0%" stop-color="#008ED6"/>
+            <stop offset="100%" stop-color="#0045D2"/>
+        </radialGradient>
+        <radialGradient id="h" cy="85.117%" r="40.413%" fx="50%" fy="85.117%" gradientTransform="matrix(0 .70905 -1.47733 0 1.757 .497)">
+            <stop offset="0%" stop-color="#008ED6"/>
+            <stop offset="100%" stop-color="#002674" stop-opacity="0"/>
+        </radialGradient>
+        <path id="g" d="M7.727 45.36l18.777-19.104 18.96 19.135a26.528 26.528 0 0 1-18.853 7.83A26.528 26.528 0 0 1 7.727 45.36zM7.83 7.757A26.527 26.527 0 0 1 26.61 0c7.313 0 13.938 2.95 18.748 7.726l-18.855 18.53L7.83 7.757z"/>
+        <circle id="j" cx="26.611" cy="26.611" r="27.32"/>
+        <filter id="i" width="118.3%" height="118.3%" x="-9.2%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="k" cx="26.611" cy="26.611" r="20.224"/>
+        <circle id="m" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="n" d="M0 0h85.154v85.154H0z"/>
+        <filter id="o" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+        </filter>
+        <circle id="p" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="r" d="M7.727 45.36l18.777-19.104 18.96 19.135a26.528 26.528 0 0 1-18.853 7.83A26.528 26.528 0 0 1 7.727 45.36zM7.83 7.757A26.527 26.527 0 0 1 26.61 0c7.313 0 13.938 2.95 18.748 7.726l-18.855 18.53L7.83 7.757z"/>
+        <circle id="t" cx="26.611" cy="26.611" r="27.32"/>
+        <filter id="s" width="118.3%" height="118.3%" x="-9.2%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="u" cx="26.611" cy="26.611" r="20.224"/>
+        <circle id="w" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="x" d="M0 0h85.154v85.154H0z"/>
+        <filter id="y" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+        </filter>
+        <linearGradient id="A" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FF682B"/>
+            <stop offset="100%" stop-color="#A90007"/>
+        </linearGradient>
+        <ellipse id="z" cx="26.363" cy="26.611" rx="26.363" ry="26.611"/>
+        <radialGradient id="C" cy="15.893%" r="38.927%" fx="50%" fy="15.893%" gradientTransform="matrix(0 .70244 -1.3249 0 .71 -.192)">
+            <stop offset="3.387%" stop-color="#EF482D"/>
+            <stop offset="100%" stop-color="#3E0800"/>
+        </radialGradient>
+        <radialGradient id="E" cy="85.117%" r="41.783%" fx="50%" fy="85.117%" gradientTransform="matrix(0 .70244 -1.47733 0 1.757 .5)">
+            <stop offset="0%" stop-color="#D43519"/>
+            <stop offset="100%" stop-color="#3E0800" stop-opacity="0"/>
+        </radialGradient>
+        <path id="D" d="M7.655 45.36l18.602-19.104L45.04 45.39c-4.774 4.837-11.38 7.83-18.677 7.83-7.314 0-13.932-3.006-18.708-7.861zm.103-37.603C12.526 2.963 19.1 0 26.363 0c7.246 0 13.808 2.95 18.574 7.726l-18.68 18.53-18.5-18.499z"/>
+        <ellipse id="G" cx="26.611" cy="26.345" rx="26.611" ry="26.877"/>
+        <filter id="F" width="118.8%" height="118.6%" x="-9.4%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <ellipse id="H" cx="26.422" cy="26.611" rx="20.036" ry="20.224"/>
+        <circle id="J" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="L" d="M0 0h85.154v85.154H0z"/>
+        <filter id="M" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 0.403009683 0 0 0 0 0.39332968 0 0 0 0.298148777 0"/>
+        </filter>
+        <circle id="N" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="P" d="M7.727 45.36l18.777-19.104 18.96 19.135a26.528 26.528 0 0 1-18.853 7.83A26.528 26.528 0 0 1 7.727 45.36zM7.83 7.757A26.527 26.527 0 0 1 26.61 0c7.313 0 13.938 2.95 18.748 7.726l-18.855 18.53L7.83 7.757z"/>
+        <circle id="R" cx="26.611" cy="26.611" r="27.32"/>
+        <filter id="Q" width="118.3%" height="118.3%" x="-9.2%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="S" cx="26.611" cy="26.611" r="20.224"/>
+        <circle id="U" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="V" d="M0 0h85.154v85.154H0z"/>
+        <filter id="W" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+        </filter>
+        <ellipse id="X" cx="26.363" cy="26.611" rx="26.363" ry="26.611"/>
+        <path id="Z" d="M7.655 45.36l18.602-19.104L45.04 45.39c-4.774 4.837-11.38 7.83-18.677 7.83-7.314 0-13.932-3.006-18.708-7.861zm.103-37.603C12.526 2.963 19.1 0 26.363 0c7.246 0 13.808 2.95 18.574 7.726l-18.68 18.53-18.5-18.499z"/>
+        <ellipse id="ab" cx="26.611" cy="26.345" rx="26.611" ry="26.877"/>
+        <filter id="aa" width="118.8%" height="118.6%" x="-9.4%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <ellipse id="ac" cx="26.422" cy="26.611" rx="20.036" ry="20.224"/>
+        <circle id="ae" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="ag" d="M0 0h85.154v85.154H0z"/>
+        <filter id="ah" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+        </filter>
+        <ellipse id="ai" cx="26.363" cy="26.611" rx="26.363" ry="26.611"/>
+        <path id="ak" d="M7.655 45.36l18.602-19.104L45.04 45.39c-4.774 4.837-11.38 7.83-18.677 7.83-7.314 0-13.932-3.006-18.708-7.861zm.103-37.603C12.526 2.963 19.1 0 26.363 0c7.246 0 13.808 2.95 18.574 7.726l-18.68 18.53-18.5-18.499z"/>
+        <ellipse id="am" cx="26.611" cy="26.345" rx="26.611" ry="26.877"/>
+        <filter id="al" width="118.8%" height="118.6%" x="-9.4%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <ellipse id="an" cx="26.422" cy="26.611" rx="20.036" ry="20.224"/>
+        <circle id="ap" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="ar" d="M0 0h85.154v85.154H0z"/>
+        <filter id="as" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+        </filter>
+        <linearGradient id="au" x1="50%" x2="50%" y1="3.805%" y2="93.416%">
+            <stop offset="0%" stop-color="#BAFF00"/>
+            <stop offset="100%" stop-color="#13DA00"/>
+        </linearGradient>
+        <circle id="at" cx="26.611" cy="26.611" r="26.611"/>
+        <radialGradient id="aw" cy="17.4%" r="35.392%" fx="50%" fy="17.4%" gradientTransform="matrix(0 .70905 -1.3249 0 .73 -.18)">
+            <stop offset=".736%" stop-color="#AEFF46"/>
+            <stop offset="100%" stop-color="#278000"/>
+        </radialGradient>
+        <radialGradient id="ay" cy="85.117%" r="41.394%" fx="50%" fy="85.117%" gradientTransform="matrix(0 .70905 -1.47733 0 1.757 .497)">
+            <stop offset="0%" stop-color="#A7FF37"/>
+            <stop offset="100%" stop-color="#174201" stop-opacity="0"/>
+        </radialGradient>
+        <path id="ax" d="M7.727 45.36l18.777-19.104 18.96 19.135a26.528 26.528 0 0 1-18.853 7.83A26.528 26.528 0 0 1 7.727 45.36zM7.83 7.757A26.527 26.527 0 0 1 26.61 0c7.313 0 13.938 2.95 18.748 7.726l-18.855 18.53L7.83 7.757z"/>
+        <circle id="aA" cx="26.611" cy="26.611" r="27.32"/>
+        <filter id="az" width="118.3%" height="118.3%" x="-9.2%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="aB" cx="26.611" cy="26.611" r="20.224"/>
+        <circle id="aD" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="aF" d="M0 0h85.154v85.154H0z"/>
+        <filter id="aG" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.568627451 0 0 0 0 1 0 0 0 0 0.290196078 0 0 0 0.245414402 0"/>
+        </filter>
+        <circle id="aH" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="aJ" d="M7.727 45.36l18.777-19.104 18.96 19.135a26.528 26.528 0 0 1-18.853 7.83A26.528 26.528 0 0 1 7.727 45.36zM7.83 7.757A26.527 26.527 0 0 1 26.61 0c7.313 0 13.938 2.95 18.748 7.726l-18.855 18.53L7.83 7.757z"/>
+        <circle id="aL" cx="26.611" cy="26.611" r="27.32"/>
+        <filter id="aK" width="118.3%" height="118.3%" x="-9.2%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <circle id="aM" cx="26.611" cy="26.611" r="20.224"/>
+        <circle id="aO" cx="26.611" cy="26.611" r="26.611"/>
+        <path id="aP" d="M0 0h85.154v85.154H0z"/>
+        <filter id="aQ" width="124.7%" height="124.7%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="10.5"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.568627451 0 0 0 0 1 0 0 0 0 0.290196078 0 0 0 0.245414402 0"/>
+        </filter>
+        <ellipse id="aR" cx="26.363" cy="26.611" rx="26.363" ry="26.611"/>
+        <path id="aT" d="M7.655 45.36l18.602-19.104L45.04 45.39c-4.774 4.837-11.38 7.83-18.677 7.83-7.314 0-13.932-3.006-18.708-7.861zm.103-37.603C12.526 2.963 19.1 0 26.363 0c7.246 0 13.808 2.95 18.574 7.726l-18.68 18.53-18.5-18.499z"/>
+        <ellipse id="aV" cx="26.611" cy="26.345" rx="26.611" ry="26.877"/>
+        <filter id="aU" width="118.8%" height="118.6%" x="-9.4%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="4" result="shadowSpreadInner1"/>
+            <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.700237772 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="1.5"/>
+            <feOffset in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.56957654 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <ellipse id="aW" cx="26.422" cy="26.611" rx="20.036" ry="20.224"/>
+        <circle id="aY" cx="26.611" cy="26.611" r="26.611"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <use fill="#211D27" xlink:href="/assets/sprite.svg#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="/assets/sprite.svg#a"/>
+            <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+        </g>
+        <g transform="translate(15.966 16.499)">
+            <mask id="e" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#c"/>
+            </mask>
+            <use fill="url(#d)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#c"/>
+            <g fill-rule="nonzero" mask="url(#e)">
+                <use fill="url(#f)" xlink:href="/assets/sprite.svg#g"/>
+                <use fill="url(#h)" xlink:href="/assets/sprite.svg#g"/>
+            </g>
+            <g fill="#000" fill-rule="nonzero" mask="url(#e)">
+                <use filter="url(#i)" xlink:href="/assets/sprite.svg#j"/>
+            </g>
+            <mask id="l" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#k"/>
+            </mask>
+            <circle cx="26.611" cy="26.611" r="20.579" stroke="#FFF" stroke-opacity=".246" stroke-width=".71"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 16.92a16.492 16.492 0 0 0-12.45-5.646A16.491 16.491 0 0 0 14.267 16.8" mask="url(#l)"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 41.902a16.492 16.492 0 0 0-12.45-5.646 16.491 16.491 0 0 0-12.344 5.525" mask="url(#l)" transform="matrix(1 0 0 -1 0 78.158)"/>
+            <g fill="#FFF" fill-opacity=".249">
+                <g fill-rule="nonzero" transform="translate(10.644 25.014)">
+                    <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                    <rect width="3.193" height="3.193" rx="1.597"/>
+                </g>
+            </g>
+            <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="15.966" font-weight="bold" letter-spacing="-.532">
+                <tspan x="23.183" y="31.638">8</tspan>
+            </text>
+            <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+        </g>
+        <g fill-rule="nonzero" transform="translate(84.09)">
+            <use fill="#211D27" xlink:href="/assets/sprite.svg#n"/>
+            <use fill="#000" filter="url(#o)" xlink:href="/assets/sprite.svg#n"/>
+            <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+        </g>
+        <g transform="translate(100.056 16.499)">
+            <mask id="q" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#p"/>
+            </mask>
+            <use fill="url(#d)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#p"/>
+            <g fill-rule="nonzero" mask="url(#q)">
+                <use fill="url(#f)" xlink:href="/assets/sprite.svg#r"/>
+                <use fill="url(#h)" xlink:href="/assets/sprite.svg#r"/>
+            </g>
+            <g fill="#000" fill-rule="nonzero" mask="url(#q)">
+                <use filter="url(#s)" xlink:href="/assets/sprite.svg#t"/>
+            </g>
+            <mask id="v" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#u"/>
+            </mask>
+            <circle cx="26.611" cy="26.611" r="20.579" stroke="#FFF" stroke-opacity=".246" stroke-width=".71"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 16.92a16.492 16.492 0 0 0-12.45-5.646A16.491 16.491 0 0 0 14.267 16.8" mask="url(#v)"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 41.902a16.492 16.492 0 0 0-12.45-5.646 16.491 16.491 0 0 0-12.344 5.525" mask="url(#v)" transform="matrix(1 0 0 -1 0 78.158)"/>
+            <g fill="#FFF" fill-opacity=".249">
+                <g fill-rule="nonzero" transform="translate(10.644 25.014)">
+                    <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                    <rect width="3.193" height="3.193" rx="1.597"/>
+                </g>
+            </g>
+            <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="15.966" font-weight="bold" letter-spacing="-.532">
+                <tspan x="23.183" y="31.638">6</tspan>
+            </text>
+            <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+        </g>
+        <g fill-rule="nonzero" transform="translate(168.18)">
+            <use fill="#211D27" xlink:href="/assets/sprite.svg#x"/>
+            <use fill="#000" filter="url(#y)" xlink:href="/assets/sprite.svg#x"/>
+            <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+        </g>
+        <g transform="translate(184.146 16.499)">
+            <mask id="B" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#z"/>
+            </mask>
+            <use fill="url(#A)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#z"/>
+            <g fill-rule="nonzero" mask="url(#B)">
+                <use fill="url(#C)" xlink:href="/assets/sprite.svg#D"/>
+                <use fill="url(#E)" xlink:href="/assets/sprite.svg#D"/>
+            </g>
+            <g fill="#000" fill-rule="nonzero" mask="url(#B)">
+                <use filter="url(#F)" xlink:href="/assets/sprite.svg#G"/>
+            </g>
+            <mask id="I" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#H"/>
+            </mask>
+            <ellipse cx="26.422" cy="26.611" stroke="#FFF" stroke-opacity=".246" stroke-width=".724" rx="20.398" ry="20.586"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 16.92c-2.996-3.459-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.526" mask="url(#I)"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 41.902c-2.996-3.46-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.525" mask="url(#I)" transform="matrix(1 0 0 -1 0 78.158)"/>
+            <mask id="K" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#J"/>
+            </mask>
+            <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+            <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="16.292" font-weight="bold" letter-spacing="-.543" mask="url(#K)">
+                <tspan x="22.966" y="31.499">5</tspan>
+            </text>
+        </g>
+        <g fill="#FFF" fill-opacity=".249" fill-rule="nonzero" transform="translate(194.79 41.513)">
+            <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+            <rect width="3.193" height="3.193" rx="1.597"/>
+        </g>
+        <g fill-rule="nonzero" transform="translate(253.333)">
+            <use fill="#140000" xlink:href="/assets/sprite.svg#L"/>
+            <use fill="#000" filter="url(#M)" xlink:href="/assets/sprite.svg#L"/>
+            <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+        </g>
+        <g transform="translate(269.3 16.499)">
+            <mask id="O" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#N"/>
+            </mask>
+            <use fill="url(#d)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#N"/>
+            <g fill-rule="nonzero" mask="url(#O)">
+                <use fill="url(#f)" xlink:href="/assets/sprite.svg#P"/>
+                <use fill="url(#h)" xlink:href="/assets/sprite.svg#P"/>
+            </g>
+            <g fill="#000" fill-rule="nonzero" mask="url(#O)">
+                <use filter="url(#Q)" xlink:href="/assets/sprite.svg#R"/>
+            </g>
+            <mask id="T" fill="#fff">
+                <use xlink:href="/assets/sprite.svg#S"/>
+            </mask>
+            <circle cx="26.611" cy="26.611" r="20.579" stroke="#FFF" stroke-opacity=".246" stroke-width=".71"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 16.92a16.492 16.492 0 0 0-12.45-5.646A16.491 16.491 0 0 0 14.267 16.8" mask="url(#T)"/>
+            <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 41.902a16.492 16.492 0 0 0-12.45-5.646 16.491 16.491 0 0 0-12.344 5.525" mask="url(#T)" transform="matrix(1 0 0 -1 0 78.158)"/>
+            <g fill="#FFF" fill-opacity=".249">
+                <g fill-rule="nonzero" transform="translate(10.644 25.014)">
+                    <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                    <rect width="3.193" height="3.193" rx="1.597"/>
+                </g>
+            </g>
+            <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="15.966" font-weight="bold" letter-spacing="-.532">
+                <tspan x="23.183" y="31.638">4</tspan>
+            </text>
+            <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+        </g>
+        <g>
+            <g fill-rule="nonzero" transform="translate(337.423)">
+                <use fill="#211D27" xlink:href="/assets/sprite.svg#V"/>
+                <use fill="#000" filter="url(#W)" xlink:href="/assets/sprite.svg#V"/>
+                <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+            </g>
+            <g transform="translate(353.39 16.499)">
+                <mask id="Y" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#X"/>
+                </mask>
+                <use fill="url(#A)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#X"/>
+                <g fill-rule="nonzero" mask="url(#Y)">
+                    <use fill="url(#C)" xlink:href="/assets/sprite.svg#Z"/>
+                    <use fill="url(#E)" xlink:href="/assets/sprite.svg#Z"/>
+                </g>
+                <g fill="#000" fill-rule="nonzero" mask="url(#Y)">
+                    <use filter="url(#aa)" xlink:href="/assets/sprite.svg#ab"/>
+                </g>
+                <mask id="ad" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#ac"/>
+                </mask>
+                <ellipse cx="26.422" cy="26.611" stroke="#FFF" stroke-opacity=".246" stroke-width=".724" rx="20.398" ry="20.586"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 16.92c-2.996-3.459-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.526" mask="url(#ad)"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 41.902c-2.996-3.46-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.525" mask="url(#ad)" transform="matrix(1 0 0 -1 0 78.158)"/>
+                <mask id="af" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#ae"/>
+                </mask>
+                <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+                <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="16.292" font-weight="bold" letter-spacing="-.543" mask="url(#af)">
+                    <tspan x="22.966" y="31.499">3</tspan>
+                </text>
+            </g>
+            <g fill="#FFF" fill-opacity=".249" fill-rule="nonzero" transform="translate(364.034 41.513)">
+                <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                <rect width="3.193" height="3.193" rx="1.597"/>
+            </g>
+        </g>
+        <g>
+            <g fill-rule="nonzero" transform="translate(421.513)">
+                <use fill="#211D27" xlink:href="/assets/sprite.svg#ag"/>
+                <use fill="#000" filter="url(#ah)" xlink:href="/assets/sprite.svg#ag"/>
+                <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+            </g>
+            <g transform="translate(437.479 16.499)">
+                <mask id="aj" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#ai"/>
+                </mask>
+                <use fill="url(#A)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#ai"/>
+                <g fill-rule="nonzero" mask="url(#aj)">
+                    <use fill="url(#C)" xlink:href="/assets/sprite.svg#ak"/>
+                    <use fill="url(#E)" xlink:href="/assets/sprite.svg#ak"/>
+                </g>
+                <g fill="#000" fill-rule="nonzero" mask="url(#aj)">
+                    <use filter="url(#al)" xlink:href="/assets/sprite.svg#am"/>
+                </g>
+                <mask id="ao" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#an"/>
+                </mask>
+                <ellipse cx="26.422" cy="26.611" stroke="#FFF" stroke-opacity=".246" stroke-width=".724" rx="20.398" ry="20.586"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 16.92c-2.996-3.459-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.526" mask="url(#ao)"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 41.902c-2.996-3.46-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.525" mask="url(#ao)" transform="matrix(1 0 0 -1 0 78.158)"/>
+                <mask id="aq" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#ap"/>
+                </mask>
+                <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+                <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="16.292" font-weight="bold" letter-spacing="-.543" mask="url(#aq)">
+                    <tspan x="22.966" y="31.499">7</tspan>
+                </text>
+            </g>
+            <g fill="#FFF" fill-opacity=".249" fill-rule="nonzero" transform="translate(448.123 41.513)">
+                <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                <rect width="3.193" height="3.193" rx="1.597"/>
+            </g>
+        </g>
+        <g>
+            <g fill-rule="nonzero" transform="translate(506.667)">
+                <use fill="#211D27" xlink:href="/assets/sprite.svg#ar"/>
+                <use fill="#000" filter="url(#as)" xlink:href="/assets/sprite.svg#ar"/>
+                <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+            </g>
+            <g transform="translate(522.633 16.499)">
+                <mask id="av" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#at"/>
+                </mask>
+                <use fill="url(#au)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#at"/>
+                <g fill-rule="nonzero" mask="url(#av)">
+                    <use fill="url(#aw)" xlink:href="/assets/sprite.svg#ax"/>
+                    <use fill="url(#ay)" xlink:href="/assets/sprite.svg#ax"/>
+                </g>
+                <g fill="#000" fill-rule="nonzero" mask="url(#av)">
+                    <use filter="url(#az)" xlink:href="/assets/sprite.svg#aA"/>
+                </g>
+                <mask id="aC" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aB"/>
+                </mask>
+                <circle cx="26.611" cy="26.611" r="20.579" stroke="#FFF" stroke-opacity=".246" stroke-width=".71"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 16.92a16.492 16.492 0 0 0-12.45-5.646A16.491 16.491 0 0 0 14.267 16.8" mask="url(#aC)"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 41.902a16.492 16.492 0 0 0-12.45-5.646 16.491 16.491 0 0 0-12.344 5.525" mask="url(#aC)" transform="matrix(1 0 0 -1 0 78.158)"/>
+                <mask id="aE" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aD"/>
+                </mask>
+                <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+                <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="15.966" font-weight="bold" letter-spacing="-.745" mask="url(#aE)">
+                    <tspan x="23.29" y="31.504">9</tspan>
+                </text>
+                <g fill-opacity=".249" mask="url(#aE)">
+                    <g fill="#FFF" fill-rule="nonzero" transform="translate(10.644 25.014)">
+                        <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                        <rect width="3.193" height="3.193" rx="1.597"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g>
+            <g fill-rule="nonzero" transform="translate(590.756)">
+                <use fill="#040B00" xlink:href="/assets/sprite.svg#aF"/>
+                <use fill="#000" filter="url(#aG)" xlink:href="/assets/sprite.svg#aF"/>
+                <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+            </g>
+            <g transform="translate(606.723 16.499)">
+                <mask id="aI" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aH"/>
+                </mask>
+                <use fill="url(#d)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#aH"/>
+                <g fill-rule="nonzero" mask="url(#aI)">
+                    <use fill="url(#f)" xlink:href="/assets/sprite.svg#aJ"/>
+                    <use fill="url(#h)" xlink:href="/assets/sprite.svg#aJ"/>
+                </g>
+                <g fill="#000" fill-rule="nonzero" mask="url(#aI)">
+                    <use filter="url(#aK)" xlink:href="/assets/sprite.svg#aL"/>
+                </g>
+                <mask id="aN" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aM"/>
+                </mask>
+                <circle cx="26.611" cy="26.611" r="20.579" stroke="#FFF" stroke-opacity=".246" stroke-width=".71"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 16.92a16.492 16.492 0 0 0-12.45-5.646A16.491 16.491 0 0 0 14.267 16.8" mask="url(#aN)"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".71" d="M39.061 41.902a16.492 16.492 0 0 0-12.45-5.646 16.491 16.491 0 0 0-12.344 5.525" mask="url(#aN)" transform="matrix(1 0 0 -1 0 78.158)"/>
+                <g fill="#FFF" fill-opacity=".249">
+                    <g fill-rule="nonzero" transform="translate(10.644 25.014)">
+                        <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                        <rect width="3.193" height="3.193" rx="1.597"/>
+                    </g>
+                </g>
+                <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="15.966" font-weight="bold" letter-spacing="-.532">
+                    <tspan x="23.183" y="31.638">2</tspan>
+                </text>
+                <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+            </g>
+        </g>
+        <g>
+            <g fill-rule="nonzero" transform="translate(674.846)">
+                <use fill="#040B00" xlink:href="/assets/sprite.svg#aP"/>
+                <use fill="#000" filter="url(#aQ)" xlink:href="/assets/sprite.svg#aP"/>
+                <path stroke="#000" stroke-linejoin="square" stroke-width="1.064" d="M.532.532h84.09v84.09H.532z"/>
+            </g>
+            <g transform="translate(690.812 16.499)">
+                <mask id="aS" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aR"/>
+                </mask>
+                <use fill="url(#A)" fill-rule="nonzero" xlink:href="/assets/sprite.svg#aR"/>
+                <g fill-rule="nonzero" mask="url(#aS)">
+                    <use fill="url(#C)" xlink:href="/assets/sprite.svg#aT"/>
+                    <use fill="url(#E)" xlink:href="/assets/sprite.svg#aT"/>
+                </g>
+                <g fill="#000" fill-rule="nonzero" mask="url(#aS)">
+                    <use filter="url(#aU)" xlink:href="/assets/sprite.svg#aV"/>
+                </g>
+                <mask id="aX" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aW"/>
+                </mask>
+                <ellipse cx="26.422" cy="26.611" stroke="#FFF" stroke-opacity=".246" stroke-width=".724" rx="20.398" ry="20.586"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 16.92c-2.996-3.459-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.526" mask="url(#aX)"/>
+                <path stroke="#FFF" stroke-opacity=".246" stroke-width=".724" d="M38.697 41.902c-2.996-3.46-7.411-5.646-12.334-5.646-4.866 0-9.235 2.136-12.229 5.525" mask="url(#aX)" transform="matrix(1 0 0 -1 0 78.158)"/>
+                <mask id="aZ" fill="#fff">
+                    <use xlink:href="/assets/sprite.svg#aY"/>
+                </mask>
+                <circle cx="26.611" cy="26.611" r="26.078" stroke="#000" stroke-width="1.064"/>
+                <text fill="#FFF" font-family="BebasNeueBold, Bebas Neue" font-size="16.292" font-weight="bold" letter-spacing="-.543" mask="url(#aZ)">
+                    <tspan x="22.966" y="31.499">1</tspan>
+                </text>
+            </g>
+            <g fill="#FFF" fill-opacity=".249" fill-rule="nonzero" transform="translate(701.457 41.513)">
+                <rect width="3.193" height="3.193" x="28.207" rx="1.597"/>
+                <rect width="3.193" height="3.193" rx="1.597"/>
+            </g>
+        </g>
+    </g>
+</svg>

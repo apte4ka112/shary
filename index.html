@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/fonts/opensans/opensans.css">
+    <link rel="stylesheet" href="/fonts/bebasneue/bebasneue.css">
+    <link rel="stylesheet" href="/fonts/sourcesanspro/sourcesanspro.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="index_guest">
+    <header class="header">
+        <div class="header__wrap">
+            <div class="header__row">
+                <div class="header__col">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="/assets/logo.png" srcset="/assets/logo@2x.png 2x, /assets/logo@3x.png 3x"
+                                class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__col header__col_mobile">
+                    <a href="#popup_chat" class="open-modal open-chat">
+                        <svg class="icon icon-default_7">
+                            <use xlink:href="/assets/sprite.svg#default_7"></use>
+                        </svg>
+                        <span>Чат</span>
+                    </a>
+                </div>
+                <div class="header__col">
+                    <nav class="header__menu menu">
+                        <div class="menu__burger">
+                            <a href="#">
+                                <svg class="icon icon-default_6">
+                                    <use xlink:href="/assets/sprite.svg#default_6"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu__container">
+                            <a class="menu__close">
+                                <svg viewBox="0 0 17 17" id="close" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-opacity=".301"
+                                        d="M8.5 6.83L15.33 0 17 1.67 10.17 8.5 17 15.33 15.33 17 8.5 10.17 1.67 17 0 15.33 6.83 8.5 0 1.67 1.67 0 8.5 6.83z" />
+                                </svg>
+                            </a>
+                            <ul class="menu__items">
+                                <li class="menu__item"><a class="menu__link menu__link_active" href="/">Стэпбол</a></li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="faucet.html">Бесплатные
+                                        <svg viewBox="0 0 21 21" id="green_2" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.5 21C4.701 21 0 16.299 0 10.5S4.701 0 10.5 0 21 4.701 21 10.5 16.299 21 10.5 21zm0-2.8a7.706 7.706 0 0 0 7.672-7l.028-.396v-1.31c0-.73-.446-1.094-1.339-1.094H11.2v2.8h4.15a4.901 4.901 0 1 1-2.305-4.889c.323.184.551.143.686-.125.405-.806.693-1.12 1.017-1.535.194-.247.113-.49-.245-.73A7.7 7.7 0 1 0 10.5 18.2z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item"><a class="menu__link" href="/honesty.html">Честность</a></li>
+                                <li class="menu__item"><a class="menu__link" href="help.html">Помощь</a></li>
+                                <li class="menu__item"><a class="menu__link" href="promocode.html">Промокод</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__col">
+                    <div class="auth-vk">
+                        <a class="button button_mini" href="#">
+                            <svg class="icon icon-default">
+                                <use xlink:href="/assets/sprite.svg#default"></use>
+                            </svg>
+                            <span>войти через VK</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--content-->
+    <div class="content">
+        <!--content__wrap-->
+        <div class="content__wrap">
+
+            <!--content__left-->
+            <div class="content__left">
+
+                <!--content__header-->
+                <div class="content__header">
+                    <h1>Дабл</h1>
+                    <div class="content__header-button">
+                        <a href="#popup_howplay" class="open-modal" data-effect="mfp-move-from-top">
+                            <svg class="icon icon-default_2">
+                                <use xlink:href="/assets/sprite.svg#default_2"></use>
+                            </svg>
+                            <div>Правила <span> за 30 сек</span></div>
+                        </a>
+                    </div>
+                </div>
+                <!--end content__header-->
+
+                <!--content__double-->
+                <div class="double-block">
+                    <div class="double-block__panel">
+                        <div class="double-block__wrap">
+                            <h4 class="subtext"> Ставка</h4>
+                            <div class="gameboard__rate">
+                                <div class="gameboard__caunt">
+                                    <div class="form__input form__input_icon">
+                                        <input type="number" pattern="[0-9]*" id="summa" name="summa" value="100">
+                                        <div class="form__icon">₽</div>
+                                    </div>
+                                    <div class="gameboard__rate-items">
+                                        <div class="gameboard__rate-item" data-value="1">+1</div>
+                                        <div class="gameboard__rate-item gameboard__rate-item_active" data-value="10">
+                                            +10</div>
+                                        <div class="gameboard__rate-item" data-value="50">+50</div>
+                                        <div class="gameboard__rate-item" data-value="100">max</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="gameboard__button-group">
+                                <a href="#" class="button button_red button-group__item">
+                                    На красное
+                                    <span>X2</span>
+                                </a>
+                                <a href="#" class="button button_black button-group__item">
+                                    На черное
+                                    <span>X2</span>
+                                </a>
+                                <a href="#" class="button button_green button-group__item zero">
+                                    На зеро
+                                    <span>X14</span>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="gameboard__live">
+                            <div class="gameboard__live-item red">1</div>
+                            <div class="gameboard__live-item">9</div>
+                            <div class="gameboard__live-item green">7</div>
+                            <div class="gameboard__live-item black">7</div>
+
+                        </div>
+                    </div>
+                    <div class="double-block__content">
+                            <div class="roulette__game">
+                                    <div class="roulette__game-arrow">
+                                            <img src="/assets/ArrowGame.png"
+                                            srcset="/assets/ArrowGame@2x.png 2x,
+                                            /assets/ArrowGame@3x.png 3x"
+                                            class="ArrowGame">
+                                    </div>
+                                    <div class="roulette__game__body">
+                                            <img src="/assets/Circle.png" class="Yin-Yang" id="roulette">
+                                    </div>
+                                    <div class="roulette__game_start-button">
+                                        <div id="timer">
+                                            <div class="seconds">23</div>
+                                            <span>до начала</span>
+                                        </div>
+                                            <img src=" /assets/YinYang@3x.png"
+                                            srcset=" /assets/YinYang@2x.png 2x,
+                                            /assets/YinYang@3x.png 3x"
+                                            class="Yin-Yang">
+                                    </div>
+                                   
+                             
+                            </div>
+                    </div>
+                </div>
+                <!--end content__double-->
+
+                <!--content__gameboard-->
+
+                <!--end content__gameboard-->
+
+
+                <div class="live-double">
+                    <div class="live-double__cell">
+                        <div class="live-double__header">
+                            <span class="cof"><img src="/assets/x2.svg" alt=""></span>
+                            <span class="price">25 676<span class="b-rub">Р</span></span>
+                        </div>
+                        <div class="live-double__body">
+                            <div class="live-double__item">
+                                <div class="live-double__name">Timas</div>
+                                <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                            </div>
+                            <div class="live-double__item">
+                                    <div class="live-double__name">Timas</div>
+                                    <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                </div>
+                                <div class="live-double__item">
+                                        <div class="live-double__name">Timas</div>
+                                        <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                    </div>
+                                    <div class="live-double__item">
+                                            <div class="live-double__name">Timas</div>
+                                            <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                        </div>
+                        </div>
+                    </div>
+                    <div class="live-double__cell">
+                            <div class="live-double__header green">
+                                <span class="cof"><img src="/assets/x14.svg" alt=""></span>
+                                <span class="price">25 676<span class="b-rub">Р</span></span>
+                            </div>
+                            <div class="live-double__body">
+                                <div class="live-double__item">
+                                    <div class="live-double__name">Timas</div>
+                                    <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                </div>
+                                <div class="live-double__item">
+                                        <div class="live-double__name">Timas</div>
+                                        <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                    </div>
+                                     <div class="live-double__item">
+                                <div class="live-double__name">Timas</div>
+                                <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="live-double__cell">
+                                <div class="live-double__header black">
+                                    <span class="cof"><img src="/assets/x2b.svg" alt=""></span>
+                                    <span class="price">25 676<span class="b-rub">Р</span></span>
+                                </div>
+                                <div class="live-double__body">
+                                    <div class="live-double__item">
+                                        <div class="live-double__name">Timas</div>
+                                        <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                    </div>
+                                    <div class="live-double__item">
+                                            <div class="live-double__name">Timas</div>
+                                            <div class="live-double__price">20<span class="b-rub">Р</span></div>
+                                        </div>
+                                </div>
+                            </div>
+                
+                                        
+                </div>
+            </div>
+            <!--end content__left-->
+
+            <!--content__right-->
+            <div class="content__right">
+                <div class="content__chat chat">
+                    <header class="chat__header">
+                        <span class="chat__header-text">288 онлайн</span>
+                        <a class="link chat__header-link" href="#">Правила чата</a>
+                    </header>
+
+                    <!--chat__messages-->
+                    <div class="chat__messages">
+                        <div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Sergey569</div>
+                                <div class="chat__message-text">Дайте денег</div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Je652fgkk</div>
+                                <div class="chat__message-text">Парни, ну хоть 10 рублей</div>
+                            </div>
+                            <div class="chat__message chat__message_moder">
+                                <div class="chat__message-username">Kunkka <span>(модератор)</span></div>
+                                <div class="chat__message-text">
+                                    <span class="chat__message-recipient">@SergeyKorovin</span>
+                                    <span>получает</span>
+                                    <img class="chat__message-icon" src="/assets/copy.png" alt="copy">
+                                    <span>на 24 часа и 100 ударов плетью</span>
+                                </div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Petr</div>
+                                <div class="chat__message-text">Все проиграл, парни. Вообще все. Дайте сколько сможете,
+                                    по-братски</div>
+                            </div>
+                            <div class="chat__message chat__message_admin">
+                                <div class="chat__message-username">Админ</div>
+                                <div class="chat__message-text">
+                                    <span class="chat__message-recipient">@Petr</span>
+                                    <span>Администратор награждает тебя 50G, матрос.</span>
+                                </div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Je652fgkk</div>
+                                <div class="chat__message-text">Так, а как проверить игру?</div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">BitkoinMaster</div>
+                                <div class="chat__message-text">
+                                    <img src="/assets/hqdefault.jpg" alt="hqdefault" class="chat__message-image">
+                                </div>
+                            </div>
+                            <div class="chat__message chat__message_user">
+                                <div class="chat__message-username">Je652fgkk</div>
+                                <div class="chat__message-text">Пацаны, кто какую стратегию юзает? И да, дайте 10 монет!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end chat__messages-->
+
+                    <footer class="chat__footer">
+                        <a class="chat__footer-link open-modal" href="#popup_auth"
+                            data-effect="mfp-move-from-top">Войдите, чтобы начать</a>
+                        <a href="#">
+                            <svg class="icon icon-default_4">
+                                <use xlink:href="/assets/sprite.svg#default_4"></use>
+                            </svg>
+                        </a>
+                    </footer>
+
+                </div>
+            </div>
+            <!--end content__right-->
+
+        </div>
+        <!--end content__wrap-->
+    </div>
+    <!--end content-->
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__sitename">© Название сайта</div>
+                    <div class="footer__adverts">По вопросам рекламы и партнерства <a
+                            href="http://XXX@test.io">XXX@test.io</a></div>
+                </div>
+                <div class="footer__col">
+                    <a href="terms.html">Условия использования</a>
+                    <a href="№">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+
+    <div class="popup-container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/jquery.easing.1.3.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+
+    
+    <script src="/js/countUp.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

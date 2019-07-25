@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/fonts/opensans/opensans.css">
+    <link rel="stylesheet" href="/fonts/bebasneue/bebasneue.css">
+    <link rel="stylesheet" href="/fonts/sourcesanspro/sourcesanspro.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="popup mfp-hide popup_width_md popup_payment" id="popup_payment">
+        <div class="popup__wrap">
+            <div class="popup__header">
+               <div class="popup__title">Пополнение баланса</div>
+               <div class="popup__close">
+                    <svg viewBox="0 0 17 17" id="close" xmlns="http://www.w3.org/2000/svg"><path fill-opacity=".301" d="M8.5 6.83L15.33 0 17 1.67 10.17 8.5 17 15.33 15.33 17 8.5 10.17 1.67 17 0 15.33 6.83 8.5 0 1.67 1.67 0 8.5 6.83z"/></svg>
+               </div>
+            </div>
+            <div class="popup__wallets">
+                <a href="#" class="popup__wallet popup__wallet_active">
+                    <figure>
+                        <img src="/assets/card.png" srcset="/assets/card@2x.png 2x, /assets/card@3x.png 3x">
+                        <figcaption>Карта</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/qiwi.png" srcset="/assets/qiwi@2x.png 2x, /assets/qiwi@3x.png 3x">
+                        <figcaption>Qiwi</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/yandex.png" srcset="/assets/yandex@2x.png 2x, /assets/yandex@3x.png 3x">
+                        <figcaption>Яндекс</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/payeer.png" srcset="/assets/payeer@2x.png 2x, /assets/payeer@3x.png 3x">
+                        <figcaption>Payeer</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/beeline.png" srcset="/assets/beeline@2x.png 2x, /assets/beeline@3x.png 3x">
+                        <figcaption>Билайн</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/mts.png" srcset="/assets/mts@2x.png 2x, /assets/mts@3x.png 3x">
+                        <figcaption>МТС</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/megaphone.png" srcset="/assets/megaphone@2x.png 2x, /assets/megaphone@3x.png 3x">
+                        <figcaption>Мегафон</figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="popup__wallet">
+                    <figure>
+                        <img src="/assets/tele-2.png" srcset="/assets/tele-2@2x.png 2x, /assets/tele-2@3x.png 3x">
+                        <figcaption>Теле2</figcaption>
+                    </figure>
+                </a>
+            </div>
+            
+            <form class="popup__form form">
+                <div class="form__item">
+                   <label for="summa" class="form__label">Введите сумму</label>
+                   <div class="form__input form__input_icon">
+                        <input type="number" pattern="[0-9]*" id="summa" name="summa" value="100">
+                        <div class="form__exchange">= <span>1000</span>
+                            <svg viewBox="0 0 21 21" id="green_2" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 21C4.701 21 0 16.299 0 10.5S4.701 0 10.5 0 21 4.701 21 10.5 16.299 21 10.5 21zm0-2.8a7.706 7.706 0 0 0 7.672-7l.028-.396v-1.31c0-.73-.446-1.094-1.339-1.094H11.2v2.8h4.15a4.901 4.901 0 1 1-2.305-4.889c.323.184.551.143.686-.125.405-.806.693-1.12 1.017-1.535.194-.247.113-.49-.245-.73A7.7 7.7 0 1 0 10.5 18.2z"/></svg>
+                        </div>
+                        <div class="form__icon">₽</div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <div class="form__button">
+                        <input type="submit" class="button button_lg" value="Пополнить">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/popup.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

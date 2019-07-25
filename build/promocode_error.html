@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/fonts/opensans/opensans.css">
+    <link rel="stylesheet" href="/fonts/bebasneue/bebasneue.css">
+    <link rel="stylesheet" href="/fonts/sourcesanspro/sourcesanspro.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="page_faucet">
+    <header class="header">
+       <div class="header__wrap">
+           <div class="header__row">
+                <div class="header__col">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="/assets/logo.png" srcset="/assets/logo@2x.png 2x, /assets/logo@3x.png 3x" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__col header__col_mobile">
+                    <a href="#popup_chat" class="open-modal open-chat">
+                        <svg class="icon icon-default_7">
+                            <use xlink:href="/assets/sprite.svg#default_7"></use>
+                        </svg>
+                        <span>Чат</span>
+                    </a>
+                </div>
+                <div class="header__col">
+                    <nav class="header__menu menu">
+                        <div class="menu__burger">
+                           <a href="#">
+                                <svg class="icon icon-default_6">
+                                    <use xlink:href="/assets/sprite.svg#default_6"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu__container">
+                            <a class="menu__close">
+                                <svg viewBox="0 0 17 17" id="close" xmlns="http://www.w3.org/2000/svg"><path fill-opacity=".301" d="M8.5 6.83L15.33 0 17 1.67 10.17 8.5 17 15.33 15.33 17 8.5 10.17 1.67 17 0 15.33 6.83 8.5 0 1.67 1.67 0 8.5 6.83z"/></svg>
+                            </a>
+                            <ul class="menu__items">
+                                <li class="menu__item"><a class="menu__link" href="/">Стэпбол</a></li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="faucet.html">Бесплатные
+                                        <svg viewBox="0 0 21 21" id="green_2" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 21C4.701 21 0 16.299 0 10.5S4.701 0 10.5 0 21 4.701 21 10.5 16.299 21 10.5 21zm0-2.8a7.706 7.706 0 0 0 7.672-7l.028-.396v-1.31c0-.73-.446-1.094-1.339-1.094H11.2v2.8h4.15a4.901 4.901 0 1 1-2.305-4.889c.323.184.551.143.686-.125.405-.806.693-1.12 1.017-1.535.194-.247.113-.49-.245-.73A7.7 7.7 0 1 0 10.5 18.2z"/></svg>
+                                    </a>
+                                </li>
+                                <li class="menu__item"><a class="menu__link" href="/honesty.html">Честность</a></li>
+                                <li class="menu__item"><a class="menu__link" href="help.html">Помощь</a></li>
+                                <li class="menu__item"><a class="menu__link menu__link_active" href="promocode.html">Промокод</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__col">
+                    <div class="header__balance balance">
+                       <div class="balance__items">
+                           <div class="balance__item">
+                                 <img src="/assets/avatar.png">
+                           </div>
+                           <div class="balance__item">
+                               <div class="balance__count">
+                                   <span id="balance__count_value">10 497</span>
+                                   <svg class="icon icon-green-invert">
+                                     <use class="green-invert" xlink:href="/assets/sprite.svg#green-invert"></use>
+                                   </svg>
+                                   <div class="balance__count-hover">
+                                       <div class="balance__count-hover-balance">
+                                           Баланс <span>1 497</span>₽
+                                       </div>
+                                       <div class="balance__count-hover-course">
+                                           1 рубль = 10
+                                           <svg class="icon icon-green-invert">
+                                             <use xlink:href="/assets/sprite.svg#green-invert"></use>
+                                           </svg>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="balance__links">
+                                   <a href="#popup_withdraw_tabs" class="button button_mini open-modal" data-effect="mfp-move-from-top">
+                                       <span>Депозит</span>
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="9" viewBox="0 0 10 9">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path stroke="#91FF4A" d="M9.5 8.5v-8H3A2.5 2.5 0 0 0 .5 3v3A2.5 2.5 0 0 0 3 8.5h6.5z"/>
+                                                <circle cx="4.5" cy="4.5" r="1.5" fill="#91FF4A"/>
+                                            </g>
+                                        </svg>
+                                   </a>
+                                   <a href="profile.html" class="button button_mini">Профиль</a>
+                                </div>
+                           </div>
+                       </div>
+                        
+                    </div>
+                </div>
+            </div>
+       </div>
+    </header>
+    
+    <!--content-->
+    <div class="content">
+       <!--content__wrap-->
+        <div class="content__wrap">
+               
+            <!--content__header-->
+            <div class="content__header">
+                <h1>Промокод</h1>
+            </div>
+            <!--end content__header-->
+            
+            <section class="content__middle content__promocode promocode">
+                <div class="promocode__row">
+                    <div class="promocode__left">
+                        <div class="promocode__tabs">
+                            <a href="/promocode.html" class="promocode__tab promocode__tab_active">Использовать</a>
+                            <a href="/promocode_create.html" class="promocode__tab">Создать свой</a>
+                        </div>
+                        <div class="content-error">
+                            <img src="/assets/alert.png" srcset="/assets/alert@2x.png 2x, /assets/alert@3x.png 3x">
+                            <span>Этот промокод использовали максимальное количество раз</span>
+                        </div>
+                        <form class="promocode__form form">
+                            <div class="form__item">
+                               <label for="summa" class="form__label">Меняем промокод на бонус</label>
+                               <div class="form__input">
+                                    <input type="text" id="promocode" name="promocode" placeholder="ABCDEF123">
+                                </div>
+                            </div>
+                            <div class="form__item">
+                                <div class="form__button">
+                                    <input type="submit" class="button button_lg" value="Получить бонус">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="promocode__right">
+                        <section class="promocode__help help">
+                           <div class="help__row">
+
+                              <div class="help__group">
+                                   <div class="help__header">Вопросы и ответы по промокодам</div>
+                                   <div class="help__item">
+                                       <div class="help__question">Как зарегистрироваться на этом сайте?
+                                            <svg class="icon icon-arrow">
+                                                <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                            </svg>
+                                       </div>
+                                       <div class="help__answer">
+                                           <p>Сервис «Юла» определил самый популярный у петербуржцев подарок на День святого Валентина. Им стали мишки, сделанные из декоративных роз. За последние полгода количество объявлений о продаже мишек выросло в 36 раз — с нескольких сотен до тысяч объявлений. </p>
+                                           <p>Интерес пользователей к этому товару также вырос. Искать мишек из роз стали в 64 раза чаще, чем раньше.</p>
+                                       </div>
+                                   </div>
+
+                                   <div class="help__item">
+                                       <div class="help__question">Как играть в эту игру?
+                                            <svg class="icon icon-arrow">
+                                                <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                            </svg>
+                                       </div>
+                                       <div class="help__answer">
+                                           <p>Сервис «Юла» определил самый популярный у петербуржцев подарок на День святого Валентина. Им стали мишки, сделанные из декоративных роз. За последние полгода количество объявлений о продаже мишек выросло в 36 раз — с нескольких сотен до тысяч объявлений. </p>
+                                           <p>Интерес пользователей к этому товару также вырос. Искать мишек из роз стали в 64 раза чаще, чем раньше.</p>
+                                       </div>
+                                   </div>
+
+                                   <div class="help__item">
+                                       <div class="help__question">Можно ли регистрировать много аккаунтов?
+                                            <svg class="icon icon-arrow">
+                                                <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                            </svg>
+                                       </div>
+                                       <div class="help__answer">
+                                           <p>Сервис «Юла» определил самый популярный у петербуржцев подарок на День святого Валентина. Им стали мишки, сделанные из декоративных роз. За последние полгода количество объявлений о продаже мишек выросло в 36 раз — с нескольких сотен до тысяч объявлений. </p>
+                                           <p>Интерес пользователей к этому товару также вырос. Искать мишек из роз стали в 64 раза чаще, чем раньше.</p>
+                                       </div>
+                                   </div>
+
+                                   <div class="help__item">
+                                       <div class="help__question">Как формируется рейтинг?
+                                            <svg class="icon icon-arrow">
+                                                <use xlink:href="/assets/sprite.svg#arrow"></use>
+                                            </svg>
+                                       </div>
+                                       <div class="help__answer">
+                                           <p>Сервис «Юла» определил самый популярный у петербуржцев подарок на День святого Валентина. Им стали мишки, сделанные из декоративных роз. За последние полгода количество объявлений о продаже мишек выросло в 36 раз — с нескольких сотен до тысяч объявлений. </p>
+                                           <p>Интерес пользователей к этому товару также вырос. Искать мишек из роз стали в 64 раза чаще, чем раньше.</p>
+                                       </div>
+                                   </div>
+                                </div>
+                           </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+        <!--end content__wrap-->
+        
+    </div>
+    <!--end content-->
+    
+    
+    <!--footer-->
+    <footer class="footer">
+       <div class="footer__wrap">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__sitename">© Название сайта</div>
+                    <div class="footer__adverts">По вопросам рекламы и партнерства <a href="http://XXX@test.io">XXX@test.io</a></div>
+                </div>
+                <div class="footer__col">
+                    <a href="terms.html">Условия использования</a>
+                    <a href="№">Политика конфиденциальности</a>
+                </div>
+            </div>
+       </div>
+    </footer>
+    <!--end footer-->
+    
+    <div class="popup-container"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/jquery.easing.1.3.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/countUp.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
